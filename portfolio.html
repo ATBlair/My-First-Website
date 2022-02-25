@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <title>My resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        div {
+            padding: 10px;
+        }
+        a:hover {
+            color:red;
+        }
+    </style>
+</head>
+
+<body>
+    
+        <nav class="sticky">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+    
+        <img class="asideright" src="images/Wilderness_photo.jpeg" height="400" alt="Wilderness Scene"/>
+        
+    <header>
+        <h1 style= "padding-left:150px">Contacts</h1>
+
+        <br/>
+        <br/>
+    </header>
+    
+        <!--I need to add the action attribute in the form tag in future after learning more about PHP and CSS-->
+        <form action="" method= "get" target= "_blank" id="form1">
+            <div>
+                <label for= "name">Name:</label>
+                    <input type= "text" name= "name" id= "name"/>
+            </div>
+
+            <div>
+                <label for= "email">Email:</label>
+                    <input type= "email" name= "email" id= "email"/>
+            </div>
+
+            <div>
+                <label for= "comments">Comments:</label>
+                <textarea name= "comments" cols= "50" rows= "10" maxlength= "250">Type your comments here.</textarea>
+            </div>
+
+            <p>Can we contact you back?</p>
+                <input type= "radio" name= "contact-back" id= "yes" value= "Yes"/>
+                <label for= "yes">Yes</label>
+                <input type= "radio" name= "contact-back" id= "no" value= "No"/>
+                <label for= "no">No</label><br/><br/>
+
+            <p>Best Contact Methods:</p>
+                <input type= "checkbox" id= "contactphone" name= "contact-phone" value= "Phone"/>
+                <label for= "contactphone">Phone</label>
+
+                <input type= "checkbox" id= "contacttext" name= "contact-text" value= "Text"/>
+                <label for= "contacttext">Text</label>
+
+                <input type= "checkbox" id= "contactemail" name= "contact-email" value= "Email"/>
+                <label for= "contactemail">Email</label><br/><br/>
+
+            <div>
+                <input type= "submit" value= "Submit" id="submit1"/>
+            </div>
+        </form>
+
+        <h2>References</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Relationship</th>
+            </tr>
+
+            <tr>
+                <td>Marshay Blair</td>
+                <td>(801)915-0947</td>
+                <td>Wife</td>
+            </tr>
+
+            <tr>
+                <td>Larry Grossaint</td>
+                <td>(801)734-0006</td>
+                <td>Friend</td>
+            </tr>
+
+            <tr>
+                <td>Ecquadee Anderson</td>
+                <td>(801)879-4721</td>
+                <td>Friend</td>
+            </tr>
+
+            <tr>
+                <td>Natalia Myerhoffer</td>
+                <td>(385)243-8601</td>
+                <td>Friend</td>
+            </tr>
+        </table>
+
+
+    
+
+
+
+
+</body>
+
+</html>

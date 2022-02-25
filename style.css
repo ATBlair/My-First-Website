@@ -1,0 +1,137 @@
+
+body {
+  background-color: rgb(228, 221, 212);
+}
+
+.asideright {
+  width: 30%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: fantasy;
+  background-color: aliceblue;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+#strength {
+  position:absolute;
+  width: 35%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 55%;
+  margin-right:5%;
+  font-style: fantasy;
+  text-align: center;
+  border-style: solid;
+  border-color: darkcyan;
+  border-width: 10px;
+  border-radius: 7px;
+  background-color: rgb(104, 217, 245);
+  overflow:scroll;
+}
+
+#values {
+  width: 35%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10%;
+  margin-left:5%;
+  float: left;
+  font-style: fantasy;
+  text-align: center;
+  border-style: solid;
+  border-color: darkcyan;
+  border-width: 10px;
+  border-radius: 7px;
+  background-color: rgb(104, 217, 245);
+  overflow:scroll;
+}
+
+p {
+  padding-left: 30px; padding-right: 30px;
+  font-size: 150%;
+  color: grey;
+}
+
+h1 {
+  font-size: 1000%;
+  color: aliceblue;
+  border-style: solid;
+  border-color: darkcyan;
+  border-width: 20px;
+  border-radius: 7px;
+  background-color: rgb(104, 217, 245);
+}
+
+h2 {
+  font-size: 600%;
+  color: aliceblue;
+  border-style: solid; 
+  border-radius: 7px;
+  border-color: darkcyan;
+  border-width: 10px;
+  background-color: rgb(104, 217, 245);
+  margin-right: 50%;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 500%;
+  color: aliceblue;
+}
+
+a {
+  color: rgb(71, 73, 73);
+  border-style: solid;
+  border-color: darkcyan;
+  border-width: thick;
+  border-radius: 7px;
+  background-color: rgb(104, 217, 245);
+  padding: 5px;
+  
+}
+
+#form1 {
+  color: grey;
+  font-size: 150%;
+  background-color: aliceblue;
+}
+
+table, th, td {
+  font-size: 30px;
+  color: grey;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: darkcyan;
+  border-width: 10px;
+  padding: 15px;
+  background-color: aliceblue;
+  border-collapse: collapse;
+}
+
+ul {
+  font-size: 30px;
+  color: grey;
+  
+}
+
+#submit1 {
+  font-size: 150%;
+  color: rgb(71, 73, 73);
+  border-style: solid;
+  border-color: darkcyan;
+  border-width: thick;
+  border-radius: 7px;
+  background-color: rgb(104, 217, 245);
+  padding: 5px;
+}
+
+nav.sticky {
+  position: sticky;
+  top: 0;
+}
