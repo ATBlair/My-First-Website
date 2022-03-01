@@ -1,6 +1,5 @@
-
 body {
-  /*background-color: rgb(228, 221, 212);*/
+  background-color: rgb(228, 221, 212);
 }
 
 img {
@@ -10,13 +9,6 @@ img {
 
 .imageright1 {
   
-  width: 30%;
-  height: 100%;
-  float: right;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
 }
 
 p {
@@ -27,25 +19,27 @@ p {
 
 h1 {
   font-size: 800%;
+  text-align: center;
   color: aliceblue;
+  padding: 10%;
   
  }
 
 h2 {
-  font-size: 600%;
+  font-size: 5rem;
   color: aliceblue;
   border-style: solid; 
-  border-radius: 5vh;
-  border-color: darkcyan;
+  border-radius: 5rem;
+  border-color: rgb(86, 155, 155);
   border-width: .1em;
-  background-color: rgb(104, 217, 245);
+  background-color: rgb(127, 225, 250);
   margin-right: 50%;
   text-align: center;
-
+  position: relative;
 }
 
 h3 {
-  font-size: 500%;
+  font-size: 5rem;
   text-align: center;
   color: aliceblue;
 }
@@ -57,7 +51,7 @@ h3 {
 }
 
 #form {
-  background-color: rgb(252, 241, 227);
+  background-color: white ;
 }
 
 table, th, td {
@@ -79,7 +73,6 @@ table, th, td {
 ul {
   font-size: 1.75em;
   color: grey;
-  
 }
 
 #submit1 {
@@ -92,22 +85,26 @@ ul {
   background-color: aliceblue;
   padding: .3em;
 }
-
-.container {
+/* #img1 is complete except the img quality*/ 
+#img1 {
   background-image: url("images/Wilderness_photo.jpeg");
   background-repeat: no-repeat;
-  border: .7em solid darkcyan;
-  border-radius: 5vh;
-  background-color: rgb(104, 217, 245);
-  
-  
+  background-attachment: relative;
+  background-size: 100% 100%;
+  border-radius: 5rem;
+}
+
+.container {
+  margin: 5%;
 }
 
 .col-5 {
-  border: .6em solid darkcyan;
+  border: .6em solid rgb(86, 155, 155);
   border-radius: 5vh;
-  background-color: rgb(104, 217, 245);
+  background-color: rgb(127, 225, 250);
   margin-top: 10vh;
   margin-left: 10vh;
 }
+
+
     
