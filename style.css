@@ -4,14 +4,15 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height:auto;
+  /*max-width: 100%;
+  height:auto;*/
 }
 
 .imageright1 {
-  width: 25vw;
-  height: 40vh;
-  margin-right: 10vh;
+  
+  width: 30%;
+  height: 100%;
+  float: right;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   border-bottom-left-radius: 50%;
@@ -27,7 +28,7 @@ p {
 h1 {
   font-size: 800%;
   color: aliceblue;
-  padding: 9vh
+  
  }
 
 h2 {
@@ -93,10 +94,13 @@ ul {
 }
 
 .container {
+  background-image: url("images/Wilderness_photo.jpeg");
+  background-repeat: no-repeat;
   border: .7em solid darkcyan;
   border-radius: 5vh;
   background-color: rgb(104, 217, 245);
-  margin: 10vh;
+  
+  
 }
 
 .col-5 {
