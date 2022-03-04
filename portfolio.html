@@ -103,10 +103,28 @@
                 </div>
             </div>
         </div>
+        <button onclick="hello()">Click Me</button>
+        <script>
+            function hello() {
+                let person = prompt("What is your name?");
+
+                let greeting = "Hello";
+
+                alert(greeting + person + "!" + "\nThank you for reviewing my resume site.");
+            }
+
+        </script>
+
+
+
+
             <br>
             <br>
-        <div class="container-fluid">
-                <h2 style="margin-left: 1.45em">References</h2>
+        <div class="container">
+            <div class="row">
+                <h2>References</h2>
+            </div>
+            <div class="row">
                 <table id="table">
                     <tr>
                         <th>Name</th>
@@ -139,18 +157,9 @@
                     </tr>
                 </table>
             </div>
+        </div>
 
-            <button onclick="hello()">Click Me</button>
-            <script>
-                function hello() {
-                    let person = prompt("What is your name?");
-
-                    let greeting = "Hello";
-
-                    alert(greeting + person + "!" + "\nThank you for reviewing my resume site.");
-                }
-
-            </script>
+            
 
 
 
