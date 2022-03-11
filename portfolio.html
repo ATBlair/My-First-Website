@@ -103,12 +103,29 @@
                 </div>
             </div>
         </div>
+
+
+
+
         <button onclick="hello()">Click Me</button>
         <script>
             function hello() {
                 let person = prompt("What is your name?");
 
-                let greeting = "Hello";
+                let time = new Date().getHours();
+                
+
+                let greeting = "";
+
+                if (time <12){
+                    greeting = "Good Morning,";
+                }
+                else if (time < 17){
+                    greeting = "Good Afternoon,";
+                }
+                else {
+                    greeting = "Good Night,";
+                }
 
                 alert(greeting + person + "!" + "\nThank you for reviewing my resume site.");
             }
