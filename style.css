@@ -71,7 +71,7 @@ ul {
   border-width: thick;
   border-radius: .5em;
   background-color: aliceblue;
-  padding: .3em;
+  /*padding: .3em;*/
 }
 
 #img1 {
@@ -97,4 +97,19 @@ ul {
   padding-left: 10%;
 }
 
+#jsbutton {
+  font-size: 150%;
+  color: grey;
+  background-color: aliceblue;
+  border-radius: .5em;
+  border-style: solid;
+  border-color: darkcyan;
+  border-width: thick;
+}
+
+#skills {
+  color: grey;
+  font-size: 200%;
+  
+}
     

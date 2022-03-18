@@ -102,7 +102,25 @@
                         I worked as a service plumber in commercial and residencial applications. I also worked as a drain tech.
                       </p>
                 </ul>
-        </div>  <br><br>
+        </div>  
+
+        <div class="container">
+            <ul id="skills">
+            </ul>
+        </div>
+
+        <script>
+
+          var skills = ["HTML", "CSS", "JS", "PHP", "SQL"];
+
+          let text = "";
+          for (let i = 0; i < skills.length; i++) {
+            text += "<li>" + skills[i] + "</li>";
+          }
+
+          document.getElementById("skills").innerHTML = text;
+
+        </script>
         <!--Table ? 
         <div class="container-fluid" style="margin: 5em">
             <div class="row">
