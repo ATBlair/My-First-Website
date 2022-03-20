@@ -103,22 +103,32 @@
                       </p>
                 </ul>
         </div>  
-
+        <!--This div is linked to the js directly under-->
         <div class="container">
-            <ul id="skills">
+            <ul id="compSkills">
             </ul>
         </div>
 
         <script>
 
-          var skills = ["HTML", "CSS", "JS", "PHP", "SQL"];
+          const compSkills = [ 
+              { name:"HTML",        experience:"3 months"}, 
+              { name:"CSS",         experience:"3 months"},
+              { name:"JS",          experience:"3 weeks" },
+              { name:"PHP",         experience:"None"    },
+              { name:"SQL",         experience:"None"    },
+              { name:"REACT",       experience:"None"    },
+              { name:"SASS",        experience:"None"    },
+              { name:"TypeScript",  experience:"None"    },
+              { name:"GIT",         experience:"2 months"}
+            ];
 
           let text = "";
-          for (let i = 0; i < skills.length; i++) {
-            text += "<li>" + skills[i] + "</li>";
+          for (let i = 0; i < compSkills.length; i++) {
+            text += "<li>" + compSkills[i].name + " " + compSkills[i].experience + "</li>";
           }
 
-          document.getElementById("skills").innerHTML = text;
+          document.getElementById("compSkills").innerHTML = text;
 
         </script>
         <!--Table ? 
